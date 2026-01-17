@@ -33,13 +33,13 @@ A **fully interactive web application** is also provided using **Streamlit**.
 ## 🚀 How to Run the App
 
 #### 1️⃣ Install Dependencies
-pip install numpy pandas scikit-learn matplotlib streamlit
+  - pip install numpy pandas scikit-learn matplotlib streamlit
 
 #### 2️⃣ Run the Streamlit App
-streamlit run app.py
+  - streamlit run app.py
 
 #### 3️⃣ Open in Browser
-http://localhost:8501
+  - http://localhost:8501
 ---
 ## 📁 Repository Structure
 ```text
