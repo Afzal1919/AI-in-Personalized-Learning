@@ -30,7 +30,7 @@ A **fully interactive web application** is also provided using **Streamlit**.
 - Synthetic student performance dataset (1000 students)
 
 ---
-# 🚀 How to Run the App
+## 🚀 How to Run the App
 
 ### 1️⃣ Install Dependencies
 pip install numpy pandas scikit-learn matplotlib streamlit
@@ -49,15 +49,3 @@ ai-exam-readiness-system/
 ├── app.py                            ← Streamlit interactive web app
 ├── requirements.txt                 ← Project dependencies
 └── README.md                         ← Project documentation
-
----
-
-
-
-
-## 👤 Author
-
-### Mohammad Afzal
-
-
-
