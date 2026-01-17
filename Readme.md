@@ -30,18 +30,7 @@ A **fully interactive web application** is also provided using **Streamlit**.
 - Synthetic student performance dataset (1000 students)
 
 ---
-
-## 📁 Repository Structure
-```text
-ai-exam-readiness-system/
-│
-├── Exam_Readiness_Prediction.ipynb   ← Main evaluation notebook
-├── app.py                            ← Streamlit interactive web app
-├── requirements.txt                 ← Project dependencies
-└── README.md                         ← Project documentation
-
-
-## 🚀 How to Run the App
+# 🚀 How to Run the App
 
 ### 1️⃣ Install Dependencies
 pip install numpy pandas scikit-learn matplotlib streamlit
@@ -51,6 +40,19 @@ streamlit run app.py
 
 ### 3️⃣ Open in Browser
 http://localhost:8501
+---
+## 📁 Repository Structure
+```text
+ai-exam-readiness-system/
+│
+├── Exam_Readiness_Prediction.ipynb   ← Main evaluation notebook
+├── app.py                            ← Streamlit interactive web app
+├── requirements.txt                 ← Project dependencies
+└── README.md                         ← Project documentation
+
+---
+
+
 
 
 ## 👤 Author
