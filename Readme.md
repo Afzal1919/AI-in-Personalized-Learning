@@ -1,132 +1,61 @@
-# 📘 AI-Based Exam Readiness Prediction and Personalized Revision Planning System
-
-## 📌 Project Track
-**AI in Personalized Learning**  
-Module E – Minor in Artificial Intelligence  
-**IIT Ropar**
-
----
-
-## 👩‍🎓 Student Details
-- **Student Name:** *(Your Friend’s Name)*  
-- **Mentor:** Dr. Niranjan Deshpande  
-- **Institution:** IIT Ropar  
-
----
+# 🎯 AI-Based Exam Readiness Prediction & Personalized Revision Planning System
 
 ## 🎯 Project Overview
+This project was developed as part of **Module E – IIT Ropar (Minor in Artificial Intelligence)**  
+under the track **AI in Personalized Learning**.
 
-Students often prepare for exams without knowing whether they are truly ready.  
-Most learning platforms provide the same revision material to all students, ignoring
-individual strengths, weaknesses, and consistency.
+The system analyzes student preparation indicators such as:
 
-This project builds an **AI-based exam readiness prediction system** that:
-- Analyzes student mock test performance  
-- Predicts exam readiness level  
-- Recommends personalized revision strategies  
-
-The system helps students focus on the right areas and improve exam outcomes.
-
----
-
-## 🧠 Problem Statement
-
-How can AI be used to **predict a student’s exam readiness** and provide  
-**personalized revision recommendations** based on performance patterns?
-
----
-
-## 🛠️ System Features
-
-- Synthetic student performance dataset  
-- Exam readiness classification:
-  - Ready  
-  - Needs Revision  
-  - High Risk  
-- Machine Learning model using **Decision Tree Classifier**  
-- Personalized revision plan generation  
-- Interactive **Streamlit** web application  
-
----
-
-## 🧪 Dataset
-
-- **Dataset Type:** Synthetic (simulated student data)  
-- **Number of Students:** 1000  
-
-### Features Used
 - Average mock test score  
 - Topic-wise accuracy  
 - Revision frequency  
-- Consistency score  
+- Preparation consistency  
 
-Synthetic data is used to avoid privacy concerns and ensure ethical AI practices.
+Using these inputs, the AI model predicts the learner’s **exam readiness level**:
 
----
+- **Ready**
+- **Needs Revision**
+- **High Risk**
 
-## 🤖 Machine Learning Approach
+Based on the predicted readiness level, the system recommends a **personalized revision strategy** to help students prepare efficiently and reduce exam failure risk.
 
-- **Model:** Decision Tree Classifier  
-- **Task:** Multi-class classification  
-- **Output:** Exam readiness level  
-
-### Evaluation Metrics
-- Accuracy score  
-- Classification report  
+A **fully interactive web application** is also provided using **Streamlit**.
 
 ---
 
-## 🌐 Web Application
-
-A **Streamlit-based web application** allows users to:
-- Enter mock test performance details  
-- Predict exam readiness level  
-- Receive personalized revision advice  
-
-This demonstrates the **practical usability** of the AI system.
+## 🧠 AI Technique Used
+- **Decision Tree Classifier** (Scikit-learn)
+- Supervised Machine Learning
+- Explainable, rule-based predictions
+- Synthetic student performance dataset (1000 students)
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
+```text
+ai-exam-readiness-system/
+│
+├── Exam_Readiness_Prediction.ipynb   ← Main evaluation notebook
+├── app.py                            ← Streamlit interactive web app
+├── requirements.txt                 ← Project dependencies
+└── README.md                         ← Project documentation
 
-├── Exam_Readiness_Personalized_Learning.ipynb
-├── app.py
-├── README.md
+
+## 🚀 How to Run the App
+
+### 1️⃣ Install Dependencies
+pip install numpy pandas scikit-learn matplotlib streamlit
+
+### 2️⃣ Run the Streamlit App
+streamlit run app.py
+
+### 3️⃣ Open in Browser
+http://localhost:8501
 
 
-- `Exam_Readiness_Personalized_Learning.ipynb` → Main evaluation notebook  
-- `app.py` → Streamlit application  
-- `README.md` → Project documentation  
+## 👤 Author
 
----
+### Mohammad Afzal
 
-## ⚖️ Ethical & Responsible AI Considerations
 
-- No real student data is used  
-- Model predictions are advisory, not final decisions  
-- Outputs are designed to support, not demotivate learners  
-- Bias and system limitations are acknowledged  
 
----
-
-## 📌 Conclusion
-
-This project demonstrates how AI can support **personalized exam preparation**
-by predicting exam readiness and recommending targeted revision strategies.
-It highlights the role of AI in improving learning efficiency and academic outcomes.
-
----
-
-## 🔮 Future Improvements
-
-- Topic-level weak area detection  
-- Adaptive revision scheduling  
-- Integration with real-world datasets  
-- Teacher dashboard for identifying at-risk students  
-
----
-
-## 🧾 AI Usage Disclosure
-
-AI tools (such as ChatGPT) were used **only for guidance and structuring ideas**.  
-All implementation, understanding, and final decisions were made by the student.
